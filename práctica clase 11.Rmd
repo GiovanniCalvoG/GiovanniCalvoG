@@ -1,0 +1,35 @@
+---
+title: "práctica"
+author: "Giovanni  Calvo Grillo"
+date: "2024-06-05"
+output: html_document
+---
+
+#Práctica 
+
+df_ventas= read.csv("C:/Users/User/Box/UCR/2024/Primer semestre/Estadística computacional/Segundo examen/clase 11/Archivos_clase11",sep=";")
+```{r}
+df_ventas= read.csv("C:/Users/User/Box/UCR/2024/Primer semestre/Estadística computacional/Segundo examen/clase 11/Archivos_clase11/ventas.csv",sep=",")
+
+df_ventas
+```
+
+parte de estadísdísticas descriptivas
+
+para la cantidad
+```{r}
+vec1=df_ventas$Cantidad
+
+mean(vec1)
+
+summary(vec1)
+
+```
+
+para el total
+```{r}
+vec2=df_ventas$Total
+
+median(vec2)
+```
+
